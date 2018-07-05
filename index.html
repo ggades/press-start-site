@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Press Start - A maior conferência gamedev do mundo!</title>
+	<meta charset="utf-8">
+
+	<!-- Stylesheet -->
+	<link href="styles/reset.css" type="text/css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P" rel="stylesheet" />
+	<link href="styles/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<div class="content">
+			<nav>
+				<ul>
+					<li><a href="#">Menu 1</a>
+					<li><a href="#">Menu 2</a>
+					<li><a href="#">Menu 3</a>
+					<li><a href="#">Menu 4</a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<canvas id="canvas" width="800" height="500">
+    	Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+		</canvas>
+		<div class="content">
+			<!-- Banner/title -->
+			<section>
+				<h1>Press Start <span class="title-arrow">></span></h1>
+				<p class="slogan">A maior conferência gamedev do mundo!</p>
+			</section>
+
+			<!-- Info -->
+			<section class="event-info event-section clearfix">
+				<h2 class="subtitle">Quando e onde?</h2>
+				<div class="left pull-left">
+					<p>Av. Túlio de Rose, 80<br />Passo D'areia</p>
+				</div>
+				<div class="right pull-right">
+					<iframe width="460" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=bourbon%20country&key=AIzaSyA4U0GW6WW2P6FePJj5tJ9yAFAdysKG8BM" allowfullscreen></iframe>
+				</div>
+			</section>
+
+			<!-- Palestrantes -->
+			<section class="event-speakers event-section">
+				<h2 class="subtitle">Palestrantes</h2>
+				<div class="speakers clearfix">
+					<div class="speaker">
+						<img src="img/avatar.png" alt="Palestrante" title="" />
+						<div class="speaker-name">Nome palestrante</div>
+						<div class="speaker-quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</div>
+					</div>
+					<div class="speaker">
+						<img src="img/avatar.png" alt="Palestrante" title="" />
+						<div class="speaker-name">Nome palestrante</div>
+						<div class="speaker-quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</div>
+					</div>
+					<div class="speaker">
+						<img src="img/avatar.png" alt="Palestrante" title="" />
+						<div class="speaker-name">Nome palestrante</div>
+						<div class="speaker-quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</div>
+					</div>
+					<div class="speaker">
+						<img src="img/avatar.png" alt="Palestrante" title="" />
+						<div class="speaker-name">Nome palestrante</div>
+						<div class="speaker-quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Schedule -->
+			<section class="event-schedule event-section clearfix">
+				<h2 class="subtitle">Agenda</h2>
+				<div class="schedule-timeline">
+					<div class="line">
+						<span class="square">08:00 - Credenciamento</span>
+						<i class="dot" data-index="1"></i>
+						<i class="dot" data-index="2"></i>
+						<i class="dot" data-index="3"></i>
+						<span class="square lunch">12:00 - Almoço</span>
+						<i class="dot" data-index="4"></i>
+						<i class="dot" data-index="5"></i>
+						<i class="dot" data-index="6"></i>
+						<span class="square coffee">15:40- Coffee break</span>
+						<i class="dot" data-index="7"></i>
+						<i class="dot" data-index="8"></i>
+						<span class="square ending">18:00 - Encerramento</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- Sponsors -->
+			<section class="event-sponsors event-section">
+				<h2 class="subtitle">Patrocinadores</h2>
+				<div class="sponsors clearfix">
+					<div class="sponsor">
+						<img src="img/sponsors/unity.png" alt="Patrocinador" title="Patrocinador">&nbsp;
+					</div>
+					<div class="sponsor">
+						<img src="img/sponsors/redbull.jpg" alt="Patrocinador" title="Patrocinador">
+					</div>
+					<div class="sponsor">
+						<img src="img/sponsors/ubisoft.png" alt="Patrocinador" title="Patrocinador">
+					</div>
+					<div class="sponsor">
+						<img src="img/sponsors/senac.png" alt="Patrocinador" title="Patrocinador">
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section class="event-contact event-section">
+				<h2 class="subtitle">Dúvidas? Entre em contato com a gente</h2>
+				<form class="contact-form clearfix" action="#" method="post">
+					<div class="left pull-left">
+						<input type="text" name="name" class="input-field" placeholder="Nome" value="" required />
+						<input type="email" name="email" class="input-field" placeholder="E-mail" value="" required />
+						<input type="tel" name="phone" class="input-field" placeholder="Telefone" value="" required />
+					</div>
+					<div class="right pull-right">
+						<textarea name="message" required></textarea>
+						<button class="pull-right">Enviar</button>
+					</div>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<p class="content">2018 - Todos os direitos reservados</p>
+	</footer>
+
+	<!-- JS -->
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="scripts/canvas.js"></script>
+</body>
+</html>

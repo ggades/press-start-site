@@ -1,2 +1,4 @@
 # press-start-site
-[College work] Fictional gaming event website
+[College work] Fictional gaming event website.
+
+Simple website made with HTML+CSS+JS.

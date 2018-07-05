@@ -1,0 +1,287 @@
+body {
+	font-family: 'Orbitron', Arial, sans-serif;
+	/* background: linear-gradient(#000, #FFF); */
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+}
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+canvas {
+	background: #000;
+	position: fixed;
+	z-index: -1;
+}
+
+/* General */
+h1 {
+	width: 420px;
+	margin: 80px auto 20px auto;
+	color: #FFF;
+	font-size: 32px;
+	font-family: 'Press Start 2P', cursive;
+	box-sizing: border-box;
+	text-shadow: 3px 2px orange;
+	transform: scale(1.5);
+	opacity: 0;
+	transition: all ease 600ms;
+}
+h1.ready {
+	transform: scale(1);
+	opacity: 1;
+}
+h2.subtitle {
+	font-size: 18px;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	color: orange;
+}
+.slogan {
+	color: #FFF;
+	text-align: center;
+	font-style: italic;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.event-section {
+	/* background: #ffff0085; */
+	background: rgba(25, 25, 25, 0.89);
+}
+
+/* Header */
+header {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	background: linear-gradient(#000, #00000080);
+	z-index: 2;
+}
+header ul {
+	width: 325px;
+	height: 60px;
+	margin: 0 auto;
+}
+header ul li{
+	display: inline-block;
+	height: 100%;
+}
+header ul li a{
+	color: #FFF;
+	padding: 23px 10px 10px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: all ease 200ms;
+	border-bottom: 2px solid transparent;
+	box-sizing: border-box;
+}
+header ul li a:hover{
+	border-color: #FFF;
+}
+
+/* Main */
+main {
+	margin-top: 60px;
+}
+main section {
+	min-height: 300px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* Event info */
+.event-info div {
+	width: 49%;
+	height: 350px;
+	margin-left: 1%;
+}
+.event-info div.left {
+	margin-left: 0;
+}
+
+/* Speakers */
+.event-speakers .speakers {
+	width: 780px;
+	margin: 30px auto;
+}
+.event-speakers .speaker {
+	width: 24%;
+	min-height: 200px;
+	float: left;
+	margin-left: 1%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #FFF;
+}
+.event-speakers .speaker:first-child {
+	margin-left: 0;
+}
+.event-speakers .speaker img {
+	max-width: 90%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.event-speakers .speaker-name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.event-speakers .speaker-quote {
+	font-size: 10px;
+	font-style: italic;
+}
+
+/* Schedule */
+.schedule-timeline {
+	padding: 10px 0 15px 0;
+}
+.event-schedule .line {
+	width: 2px;
+	height: 445px;
+	background: #FFF;
+	margin: 10px auto 20px auto;
+	position: relative;
+}
+.event-schedule .dot {
+	width: 15px;
+	height: 15px;
+	background: orange;
+	border-radius: 50%;
+	position: absolute;
+	top: 40px;
+	left: -7px;
+}
+.event-schedule .dot[data-index="2"] {
+	top: 80px;
+}
+.event-schedule .dot[data-index="3"] {
+	top: 120px;
+}
+.event-schedule .dot[data-index="4"] {
+	top: 200px;
+}
+.event-schedule .dot[data-index="5"] {
+	top: 240px;
+}
+.event-schedule .dot[data-index="6"] {
+	top: 280px;
+}
+.event-schedule .dot[data-index="7"] {
+	top: 360px;
+}
+.event-schedule .dot[data-index="8"] {
+	top: 400px;
+}
+.event-schedule .square {
+	position: absolute;
+	width: 140px;
+	height: 15px;
+	top: 0;
+	left: -70px;
+	background: #FFF;
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+	line-height: 18px;
+}
+.event-schedule .square.lunch {
+	top: 160px;
+}
+.event-schedule .square.coffee {
+	top: 320px;
+}
+.event-schedule .square.ending {
+	top: 445px;
+}
+
+/* Sponsors */
+.event-sponsors {
+	min-height: 200px;
+}
+.event-sponsors .sponsors {
+	width: 830px;
+	margin: 55px auto;
+}
+.event-sponsors .sponsor {
+	width: 200px;
+	height: 75px;
+	float: left;
+	background: #FFF;
+	text-align: center;
+	padding: 2px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.event-sponsors .sponsor:first-child {
+	margin-left: 0;
+}
+.event-sponsors .sponsor img {
+	max-width: 98%;
+	max-height: 98%;
+}
+
+/* Contact */
+.event-contact {
+
+}
+.contact-form {
+	width: 800px;
+	margin: 50px auto;
+	font-size: 12px;
+}
+.contact-form > div {
+	width: 50%;
+	padding-right: 2.5%;
+	box-sizing: border-box;
+}
+.contact-form > div:last-child {
+	width: 50%;
+	padding-left: 2.5%;
+	padding-right: 0;
+}
+.contact-form .input-field {
+	width: 100%;
+	height: 30px;
+	border: 0px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.contact-form .input-field:focus {
+	outline: none;
+}
+.contact-form textarea {
+	width: 100%;
+	height: 120px;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.contact-form button {
+	width: 50%;
+	height: 30px;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	height: 60px;
+	color: #FFF;
+	text-align: right;
+	padding: 25px 0;
+	box-sizing: border-box;
+}
