@@ -70,7 +70,7 @@ header {
 	z-index: 2;
 }
 header ul {
-	width: 325px;
+	width: 535px;
 	height: 60px;
 	margin: 0 auto;
 }
@@ -108,9 +108,27 @@ main section {
 	width: 49%;
 	height: 350px;
 	margin-left: 1%;
+	text-align: center;
 }
 .event-info div.left {
 	margin-left: 0;
+}
+.event-info .left p {
+	font-size: 25px;
+	text-align: center;
+	padding: 100px 0 60px 0;
+}
+.event-info .buy-tickets {
+	padding: 15px;
+	background: orange;
+	border-radius: 5px;
+	color: #000;
+	text-decoration: none;
+	font-size: 15px;
+}
+.event-info .buy-tickets:hover {
+	background: #FFF;
+	color: orange;
 }
 
 /* Speakers */

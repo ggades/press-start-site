@@ -14,10 +14,11 @@
 		<div class="content">
 			<nav>
 				<ul>
-					<li><a href="#">Menu 1</a>
-					<li><a href="#">Menu 2</a>
-					<li><a href="#">Menu 3</a>
-					<li><a href="#">Menu 4</a>
+					<li><a href="#event" class="scroll-to">Evento</a>
+					<li><a href="#event-info" class="scroll-to">Quando?</a>
+					<li><a href="#speakers" class="scroll-to">Palestrantes</a>
+					<li><a href="#schedule" class="scroll-to">Agenda</a>
+					<li><a href="#contact" class="scroll-to">Contato</a>
 				</ul>
 			</nav>
 		</div>
@@ -28,16 +29,17 @@
 		</canvas>
 		<div class="content">
 			<!-- Banner/title -->
-			<section>
+			<section id="event">
 				<h1>Press Start <span class="title-arrow">></span></h1>
 				<p class="slogan">A maior conferência gamedev do mundo!</p>
 			</section>
 
 			<!-- Info -->
-			<section class="event-info event-section clearfix">
+			<section id="event-info" class="event-info event-section clearfix">
 				<h2 class="subtitle">Quando e onde?</h2>
 				<div class="left pull-left">
-					<p>Av. Túlio de Rose, 80<br />Passo D'areia</p>
+					<p>21/07/2018<br /><br />Av. Túlio de Rose, 80<br />Passo D'areia</p>
+					<a href="#" class="buy-tickets" target="_blank">Comprar ingresso</a>
 				</div>
 				<div class="right pull-right">
 					<iframe width="460" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=bourbon%20country&key=AIzaSyA4U0GW6WW2P6FePJj5tJ9yAFAdysKG8BM" allowfullscreen></iframe>
@@ -45,7 +47,7 @@
 			</section>
 
 			<!-- Palestrantes -->
-			<section class="event-speakers event-section">
+			<section id="speakers" class="event-speakers event-section">
 				<h2 class="subtitle">Palestrantes</h2>
 				<div class="speakers clearfix">
 					<div class="speaker">
@@ -72,7 +74,7 @@
 			</section>
 
 			<!-- Schedule -->
-			<section class="event-schedule event-section clearfix">
+			<section id="schedule" class="event-schedule event-section clearfix">
 				<h2 class="subtitle">Agenda</h2>
 				<div class="schedule-timeline">
 					<div class="line">
@@ -112,7 +114,7 @@
 			</section>
 
 			<!-- Contact -->
-			<section class="event-contact event-section">
+			<section id="contact" class="event-contact event-section">
 				<h2 class="subtitle">Dúvidas? Entre em contato com a gente</h2>
 				<form class="contact-form clearfix" action="#" method="post">
 					<div class="left pull-left">
