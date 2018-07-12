@@ -166,6 +166,7 @@ main section {
 /* Schedule */
 .schedule-timeline {
 	padding: 10px 0 15px 0;
+	position: relative;
 }
 .event-schedule .line {
 	width: 2px;
@@ -224,6 +225,43 @@ main section {
 }
 .event-schedule .square.ending {
 	top: 445px;
+}
+.baloon {
+	width: 200px;
+	height: 70px;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FFF;
+}
+.baloon.right:before {
+	content: "";
+	width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #FFF;
+	float: left;
+	margin: 24px 0 0 -15px;
+}
+.baloon.left:before {
+	content: "";
+	width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #FFF;
+	float: right;
+	margin: 24px -15px 0 0;
+}
+.baloon-1 {
+	top: 30px;
+	right: 190px;
+}
+.baloon-2 {
+	top: 75px;
+	right: 550px;
 }
 
 /* Sponsors */
