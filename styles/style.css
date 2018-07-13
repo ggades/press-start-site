@@ -415,3 +415,7 @@ footer {
 	box-sizing: border-box;
 	line-height: 12px;
 }
+footer .social a {
+	margin-right: 10px;
+	text-decoration: none;
+}
