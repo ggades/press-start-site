@@ -19,6 +19,7 @@ canvas {
 	background: #000;
 	position: fixed;
 	z-index: -1;
+	opacity: 0.4;
 }
 
 /* General */
