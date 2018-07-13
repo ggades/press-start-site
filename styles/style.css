@@ -300,6 +300,42 @@ main section {
 .baloon-8 {
 	top: 398px;
 }
+.hour {
+	position: absolute;
+	color: #FFF;
+}
+.hour-1 {
+	top: 63px;
+	right: 420px;
+}
+.hour-2 {
+	top: 102px;
+	right: 490px;
+}
+.hour-3 {
+	top: 143px;
+	right: 420px;
+}
+.hour-4 {
+	top: 223px;
+	right: 490px;
+}
+.hour-5 {
+	top: 263px;
+	right: 420px;
+}
+.hour-6 {
+	top: 303px;
+	right: 490px;
+}
+.hour-7 {
+	top: 383px;
+	right: 420px;
+}
+.hour-8 {
+	top: 423px;
+	right: 490px;
+}
 
 /* Sponsors */
 .event-sponsors {
