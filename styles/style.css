@@ -154,6 +154,11 @@ main section {
 	max-width: 90%;
 	margin: 0 auto;
 	border-radius: 50%;
+	border: 5px solid transparent;
+	transition: all ease 300ms;
+}
+.event-speakers .speaker img:hover {
+	border-color: orange;
 }
 .event-speakers .speaker-name {
 	font-weight: bold;
