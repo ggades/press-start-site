@@ -91,6 +91,7 @@ header ul li a{
 }
 header ul li a:hover{
 	border-color: #FFF;
+	cursor: pointer;
 }
 
 /* Main */
@@ -156,7 +157,7 @@ main section {
 }
 .event-speakers .speaker-name {
 	font-weight: bold;
-	margin-bottom: 5px;
+	margin: 5px 0;
 }
 .event-speakers .speaker-quote {
 	font-size: 10px;
@@ -228,12 +229,20 @@ main section {
 }
 .baloon {
 	width: 200px;
-	height: 70px;
+	height: 60px;
 	border-radius: 5px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	background: #FFF;
+	padding: 8px;
+  box-sizing: border-box;
+	color: #000;
+	font-family: sans-serif;
+	line-height: 13px;
+}
+.baloon b{
+	font-weight: bold;
 }
 .baloon.right:before {
 	content: "";
@@ -243,7 +252,7 @@ main section {
   border-bottom: 10px solid transparent;
   border-right: 15px solid #FFF;
 	float: left;
-	margin: 24px 0 0 -15px;
+	margin: 12px 0 0 -18px;
 }
 .baloon.left:before {
 	content: "";
@@ -253,15 +262,37 @@ main section {
   border-bottom: 10px solid transparent;
   border-left: 15px solid #FFF;
 	float: right;
-	margin: 24px -15px 0 0;
+	margin: 12px -18px 0 0;
 }
-.baloon-1 {
-	top: 30px;
+.baloon.left {
+	right: 550px;
+}
+.baloon.right {
 	right: 190px;
 }
+.baloon-1 {
+	top: 37px;
+}
 .baloon-2 {
-	top: 75px;
-	right: 550px;
+	top: 77px;
+}
+.baloon-3 {
+	top: 117px;
+}
+.baloon-4 {
+	top: 198px;
+}
+.baloon-5 {
+	top: 240px;
+}
+.baloon-6 {
+	top: 278px;
+}
+.baloon-7 {
+	top: 355px;
+}
+.baloon-8 {
+	top: 398px;
 }
 
 /* Sponsors */
@@ -338,6 +369,7 @@ footer {
 	height: 60px;
 	color: #FFF;
 	text-align: right;
-	padding: 25px 0;
+	padding: 12px 0;
 	box-sizing: border-box;
+	line-height: 12px;
 }
